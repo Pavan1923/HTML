@@ -1,0 +1,61 @@
+/*contact section*/
+body{
+    background-image: url(cont.jpg);
+    background-size: cover;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: none;
+    color: rgb(12, 12, 12);
+}
+
+.contact h2{
+    padding-top: 30px;
+}
+.contact button{
+    margin:10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: rgb(2, 21, 28);
+    border: 0;
+    font-weight: 550;
+    font-size: 16px;
+}
+form{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.form-elements{
+    display: flex;
+    justify-content: space-between;
+}
+.form-elements input, textarea{
+    padding: 10px;
+}
+.form-elements input{
+    width: 50%;
+}
+label{
+    font-size: 20px;
+}
+
+.about{
+    padding: 10px;
+}
+.footer {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+  }
+  p{
+    color: white;
+  }
+  
