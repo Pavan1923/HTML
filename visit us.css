@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+    width: 100%;
+}
+h1{
+    margin-top: auto;
+    padding-bottom: 1%;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+form{
+    color: black;
+    padding: 2%;
+    
+}
+label{
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    bottom: auto;
+}
+/* External CSS File */
+
+/* Footer styles */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #ddd;
+}

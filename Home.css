@@ -1,0 +1,92 @@
+
+body{
+    background-color: skyblue;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for the icon container */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for individual icons */
+.icon-container img {
+    width: 50px; 
+    margin: 0 10px; 
+}
+
+
+/* Styles for the icon container */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+/* Styles for individual icons */
+.icon-container img {
+    width: 50px; 
+    margin: 0 10px; 
+}
+
+/* Styles for the rating container */
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+/* Styles for individual rating icons */
+.rating-container img {
+    width: 30px; 
+    margin: 0 5px; 
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* Basic styling for the footer */
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    padding: auto;
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: black;
+}
+  

@@ -1,0 +1,110 @@
+body{
+    background-color: pink;
+}
+
+/* Faculty section styles */
+.faculty-section {
+    padding: 20px;
+    background-color: black;
+}
+
+.faculty-member {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faculty-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.faculty-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.faculty-info h3 {
+    margin: 10px 0;
+}
+
+.faculty-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.placement-info {
+    margin-bottom: 30px;
+}
+
+.placement-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Styles for the list of companies */
+.company-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-list ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.company-list ul li:last-child {
+    border-bottom: none;
+}
+
+
+
+/* Basic styling for the footer */
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: black;
+}
+
+  

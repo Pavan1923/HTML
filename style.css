@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    background-image: url(black.jpg);
+    width: 103%;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: white;
+}
+nav img{
+    width: 90px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    color: steelblue;
+font-size: 40px;
+text-align: center;
+display: flex;
+justify-content: center;
+padding-bottom: 5%;
+}
+.text-box p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1%;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative; 
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px  solid skyblue;
+    background: skyblue;
+    transition: 0.5s;
+}
+
+
+/* Basic styling for the footer */
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: black;
+}
+
+  
+
